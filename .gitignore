@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Android build artifacts
+platforms/android/build/
+platforms/android/app/build/
+platforms/android/CordovaLib/build/
+platforms/android/.gradle/
+platforms/android/local.properties
+platforms/android/.idea/
+*.apk
+
+# Other
+.DS_Store
+Thumbs.db

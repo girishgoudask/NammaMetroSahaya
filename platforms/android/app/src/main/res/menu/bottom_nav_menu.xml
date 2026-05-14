@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@android:drawable/ic_menu_directions" />
+    <item
+        android:id="@+id/exitFinderFragment"
+        android:title="Exits"
+        android:icon="@android:drawable/ic_menu_mapmode" />
+    <item
+        android:id="@+id/visualGuideFragment"
+        android:title="Guide"
+        android:icon="@android:drawable/ic_menu_help" />
+</menu>

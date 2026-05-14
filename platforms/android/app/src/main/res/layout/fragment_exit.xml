@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/light_gray">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit Finder (Sahaya)"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/green_metro"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search by Landmark (e.g. Hospital, KBS):"
+                android:textSize="12sp"
+                android:layout_marginBottom="4dp"/>
+
+            <EditText
+                android:id="@+id/edit_search_exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Search landmarks..."
+                android:padding="10dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/black"
+                android:textColorHint="#9E9E9E"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Or Select Station:"
+                android:textSize="12sp"
+                android:layout_marginBottom="4dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_station_exit"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/spinner_bg"
+                android:spinnerMode="dropdown"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/txt_exit_count_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:padding="12dp"
+        android:background="#E3F2FD"
+        android:textColor="#1565C0"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_exits"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="80dp"/>
+
+</LinearLayout>
