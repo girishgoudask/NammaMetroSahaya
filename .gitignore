@@ -11,5 +11,6 @@ platforms/android/.idea/
 *.apk
 
 # Other
+service-account.json
 .DS_Store
 Thumbs.db

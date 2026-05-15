@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "799033274766",
-    "project_id": "nammametrosahaya-7b807",
-    "storage_bucket": "nammametrosahaya-7b807.firebasestorage.app"
+    "project_number": "424265614951",
+    "project_id": "nammametrosahaya-e460c",
+    "storage_bucket": "nammametrosahaya-e460c.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:799033274766:android:466ef74c78f37d158c34df",
+        "mobilesdk_app_id": "1:424265614951:android:4e1a240eb3a9a942c3b6c2",
         "android_client_info": {
           "package_name": "com.girish.nammametrosahaya"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD1ol2G7bnCGBOUczgfTybsvJu94P4DC2A"
+          "current_key": "AIzaSyAPKo2KWcPPpkzqzzYWnY1bI3dnqiuS6qU"
         }
       ],
       "services": {
