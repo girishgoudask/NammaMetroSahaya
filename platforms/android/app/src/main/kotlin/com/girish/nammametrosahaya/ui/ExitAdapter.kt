@@ -1,11 +1,11 @@
-package io.cordova.hellocordova.ui
+package com.girish.nammametrosahaya.ui
 
 import android.graphics.Color
 import android.graphics.Typeface
 import android.view.*
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import io.cordova.hellocordova.data.ExitGate
+import com.girish.nammametrosahaya.data.ExitGate
 
 class ExitAdapter(
     private var exits: List<Pair<ExitGate, String>> // ExitGate and its Station Name

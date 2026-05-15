@@ -1,9 +1,9 @@
-package io.cordova.hellocordova.ui
+package com.girish.nammametrosahaya.ui
 
 import android.app.Application
 import android.content.Context
 import androidx.lifecycle.*
-import io.cordova.hellocordova.data.*
+import com.girish.nammametrosahaya.data.*
 import kotlinx.coroutines.launch
 
 class MetroViewModel(application: Application) : AndroidViewModel(application) {

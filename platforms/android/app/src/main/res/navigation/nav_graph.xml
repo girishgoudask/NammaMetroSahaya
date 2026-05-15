@@ -6,21 +6,21 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="io.cordova.hellocordova.ui.HomeFragment"
+        android:name="com.girish.nammametrosahaya.ui.HomeFragment"
         android:label="Route Finder" />
 
     <fragment
         android:id="@+id/exitFinderFragment"
-        android:name="io.cordova.hellocordova.ui.ExitFinderFragment"
+        android:name="com.girish.nammametrosahaya.ui.ExitFinderFragment"
         android:label="Exit Finder" />
 
     <fragment
         android:id="@+id/visualGuideFragment"
-        android:name="io.cordova.hellocordova.ui.VisualGuideFragment"
+        android:name="com.girish.nammametrosahaya.ui.VisualGuideFragment"
         android:label="Visual Guide" />
 
     <fragment
         android:id="@+id/routeResultFragment"
-        android:name="io.cordova.hellocordova.ui.RouteResultFragment"
+        android:name="com.girish.nammametrosahaya.ui.RouteResultFragment"
         android:label="Route Result" />
 </navigation>

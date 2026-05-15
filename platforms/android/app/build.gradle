@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.firebase.appdistribution'
 
 if (cordovaConfig.IS_GRADLE_PLUGIN_KOTLIN_ENABLED) {
     apply plugin: 'kotlin-android'
@@ -71,6 +72,23 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
+
+    buildTypes {
+        debug {
+            firebaseAppDistribution {
+                appId = "1:799033274766:android:466ef74c78f37d158c34df"
+                testers = "girishgoudakodibasanagoudra@gmail.com"
+                serviceCredentialsFile = "service-account.json"
+            }
+        }
+        release {
+            firebaseAppDistribution {
+                appId = "1:799033274766:android:466ef74c78f37d158c34df"
+                testers = "girishgoudakodibasanagoudra@gmail.com"
+                serviceCredentialsFile = "service-account.json"
+            }
+        }
+    }
 }
 
 dependencies {
@@ -97,3 +115,4 @@ dependencies {
     implementation "org.osmdroid:osmdroid-android:6.1.18"
     implementation(project(path: ":CordovaLib"))
 }
+apply plugin: "com.google.gms.google-services"

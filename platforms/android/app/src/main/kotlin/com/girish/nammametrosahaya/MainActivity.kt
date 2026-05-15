@@ -1,4 +1,4 @@
-package io.cordova.hellocordova
+package com.girish.nammametrosahaya
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

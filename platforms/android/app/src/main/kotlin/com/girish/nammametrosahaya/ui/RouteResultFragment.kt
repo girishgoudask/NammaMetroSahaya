@@ -1,4 +1,4 @@
-package io.cordova.hellocordova.ui
+package com.girish.nammametrosahaya.ui
 
 import android.graphics.Color
 import android.os.Bundle
@@ -11,8 +11,8 @@ import androidx.navigation.fragment.findNavController
 import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import io.cordova.hellocordova.R
-import io.cordova.hellocordova.data.Station
+import com.girish.nammametrosahaya.R
+import com.girish.nammametrosahaya.data.Station
 import org.osmdroid.config.Configuration
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory
 import org.osmdroid.util.BoundingBox

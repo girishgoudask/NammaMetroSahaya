@@ -1,4 +1,4 @@
-package io.cordova.hellocordova.data
+package com.girish.nammametrosahaya.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

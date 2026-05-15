@@ -1,4 +1,4 @@
-package io.cordova.hellocordova.ui
+package com.girish.nammametrosahaya.ui
 
 import android.graphics.Color
 import android.os.Bundle
@@ -11,10 +11,10 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import io.cordova.hellocordova.R
-import io.cordova.hellocordova.data.AppDatabase
-import io.cordova.hellocordova.data.ExitGate
-import io.cordova.hellocordova.data.MetroRepository
+import com.girish.nammametrosahaya.R
+import com.girish.nammametrosahaya.data.AppDatabase
+import com.girish.nammametrosahaya.data.ExitGate
+import com.girish.nammametrosahaya.data.MetroRepository
 import kotlinx.coroutines.*
 
 class ExitFinderFragment : Fragment() {

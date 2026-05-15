@@ -1,4 +1,4 @@
-package io.cordova.hellocordova.ui
+package com.girish.nammametrosahaya.ui
 
 import android.os.Bundle
 import android.view.*
@@ -6,7 +6,7 @@ import android.widget.*
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import io.cordova.hellocordova.R
+import com.girish.nammametrosahaya.R
 
 class HomeFragment : Fragment() {
     private lateinit var viewModel: MetroViewModel

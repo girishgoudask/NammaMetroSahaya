@@ -1,4 +1,4 @@
-package io.cordova.hellocordova.ui
+package com.girish.nammametrosahaya.ui
 
 import android.os.Bundle
 import android.view.*
@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
-import io.cordova.hellocordova.R
+import com.girish.nammametrosahaya.R
 
 data class GuideStep(
     val title: String,

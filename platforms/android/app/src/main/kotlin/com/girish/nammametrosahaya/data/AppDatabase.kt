@@ -1,4 +1,4 @@
-package io.cordova.hellocordova.data
+package com.girish.nammametrosahaya.data
 
 import android.content.Context
 import androidx.room.*
