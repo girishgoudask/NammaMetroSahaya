@@ -4,8 +4,8 @@
     <description>
         App to calculate fare, distance etc while travelling in Bangalore metro. Has a map of metro and can recharge your metro cards also.
     </description>
-    <author email="prajwal72p@gmail.com">
-        Designed by Prajwal
+    <author email="girishgoudakodibasanagoudra@gmail.com">
+        Designed by Girishgouda
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
